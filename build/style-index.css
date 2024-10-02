@@ -980,6 +980,7 @@ p {
   font-size: 18px;
   margin-bottom: 35px;
   color: var(--white);
+  font-family: var(--font) !important;
 }
 .wp-block-create-block-ls-footer .ud-widget .ud-widget-links {
   list-style: none !important;
