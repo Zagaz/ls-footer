@@ -1032,6 +1032,7 @@ p {
   color: #f3f4fe;
   margin-left: 30px;
   display: inline-block;
+  text-decoration: none;
 }
 @media (max-width: 767px) {
   .wp-block-create-block-ls-footer .ud-footer-bottom .ud-footer-bottom-left a {
