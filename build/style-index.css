@@ -1049,6 +1049,7 @@ p {
 }
 .wp-block-create-block-ls-footer .ud-footer-bottom .ud-footer-bottom-right a {
   color: var(--primary-color);
+  text-decoration: none;
 }
 .wp-block-create-block-ls-footer .ud-footer-bottom .ud-footer-bottom-right a:hover {
   text-decoration: underline;
