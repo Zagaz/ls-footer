@@ -5,6 +5,10 @@
 /*!*******************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss (1) ***!
   \*******************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap);
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss (2) ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
 /**
  * The following styles get applied both on the front of your site
  * and in the editor.
@@ -913,6 +917,10 @@ p {
   background: var(--heading-color);
 }
 
+.wp-block-create-block-ls-footer {
+  font-family: var(--font);
+  color: red;
+}
 .wp-block-create-block-ls-footer .ud-footer {
   background: var(--heading-color);
   padding-top: 100px;
@@ -962,6 +970,7 @@ p {
   font-size: 16px;
   color: #dddddd;
   margin-left: 20px;
+  text-decoration: none;
 }
 .wp-block-create-block-ls-footer .ud-widget .ud-widget-socials a:hover {
   color: var(--primary-color);
@@ -972,12 +981,17 @@ p {
   margin-bottom: 35px;
   color: var(--white);
 }
+.wp-block-create-block-ls-footer .ud-widget .ud-widget-links {
+  list-style: none !important;
+  padding-right: 0 !important;
+}
 .wp-block-create-block-ls-footer .ud-widget .ud-widget-links a {
   display: inline-block;
   margin-bottom: 12px;
   font-size: 15px;
   line-height: 30px;
   color: #f3f4fe;
+  text-decoration: none !important;
 }
 .wp-block-create-block-ls-footer .ud-widget .ud-widget-links a:hover {
   color: var(--primary-color);
