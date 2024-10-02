@@ -1060,3 +1060,6 @@ p {
     margin-top: 10px;
   }
 }
+.wp-block-create-block-ls-footer #back-to-top {
+  text-decoration: none;
+}
