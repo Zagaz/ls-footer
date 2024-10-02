@@ -32,7 +32,7 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<>
-		<h1>Thi is the footer</h1>
+		<h1> 🦶 This is the footer</h1>
 		</>
 	);
 }
